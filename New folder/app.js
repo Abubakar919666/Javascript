@@ -77,47 +77,34 @@ student1.specialQuota = true;
 
 
 
-let allStudents = [student1,  student2,  student3];
-for (let i = 0; i < allStudents.length; i++) {
-    let student = allStudents[i];
-    if ("isFeePaid" in student1) {
-        if (student1.isFeePaid) {
-            console.log('Thanks for fee.');
-        }
-        else {
-            console.log('Please clear your dues.');
-        }
-    }
-    else if ("specialQuota" in student1) {
-        console.log('Dil lga k parho.');
-    }
-}
+// let allStudents = [student1,  student2,  student3];
+// for (let i = 0; i < allStudents.length; i++) {
+//     let student = allStudents[i];
+//     if ("isFeePaid" in student) {
+//         if (student.isFeePaid) {
+//             console.log('Thanks for fee.');
+//         }
+//         else {
+//             console.log('Please clear your dues.');
+//         }
+//     }
+//     else if ("specialQuota" in student) {
+//         console.log('Dil lga k parho.');
+//     }
+// }
 
 
 
 // console.log(student1);
-// let allValues = Object.values(student1);
+// let allValues = Object.values(student1, student2, student3);
 // console.log(allValues.includes("Haider"));
 
 
+// let currentURL = location;
+// console.log(currentURL.pathname);
+
+let newURL = prompt('enter a URL with protocol.');
+location = newURL;
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-let currentURL = location;
-console.log(currentURL.pathname);
-
-// let newURL = prompt('enter a URL with protocol.');
-// location = newURL;
+console.log(newURL);
