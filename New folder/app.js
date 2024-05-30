@@ -105,6 +105,4 @@ student1.specialQuota = true;
 
 let newURL = prompt('enter a URL with protocol.');
 location = newURL;
-
-
 console.log(newURL);
