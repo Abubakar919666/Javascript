@@ -1,23 +1,40 @@
-let car = {
-  name: "mehran",
-  model: "2005",
-  varient: "vxr",
-  isAutomatic: false,
-  features: {
-    fuelAverage: "Best",
-    easyToDhakka: true,
-    isSpearWheelAvailable: true,
-    isAirConditioned: true,
-  },
-};
+// Arrow function
 
-// const {name, model, varient} = car;
-// console.log(name, model, varient);
+// let obj = {
+//   num : 5,
+//   calculateSqure : () =>{
+//     console.log(this.num * this.num);
+//     console.log(this);
+//   }
 
-// const {
-//     model,
-//     varient,
-//     features: {fuelAverage,easyToDhakka,isAirConditioned}
-//     } = car;
-// console.log(model, varient,  fuelAverage, easyToDhakka);
+//   }
 
+// let fruits = ["apple", "banana", "cherry", "grapes"];
+
+// fruits.forEach((fruit, i) => {
+//   if (condition) {
+//   }
+// // });
+
+
+
+
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const squareofNumbers = numbers.map(num => num * num);
+
+// console.log(squareofNumbers);
+ 
+
+
+
+// let userName1 =["haider","ghani","usman","ali"]
+// userName1 = userName1.map(fName => fName.toUpperCase());
+// console.log(userName1);
+
+
+
+
+let userName =["haider","ghani","usman","ali"]
+userName = userName.map(fName => fName[0].toUpperCase()+fName.slice(1));
+console.log(userName);
