@@ -50,7 +50,7 @@ let student2 = new Student("Abdullah", 2644, false, "css");
 let student3 = new Student("Muzammil", 2645, true, "javascript");
 
 // student3.subjects = ["Python"];
-// console.log(student3, student1, student2)
+console.log(student3, student1, student2)
 
 // delete student1.isFeePaid;
 // console.log(student1);
@@ -59,8 +59,8 @@ let student3 = new Student("Muzammil", 2645, true, "javascript");
 
 
 
-delete student1.isFeePaid;
-student1.specialQuota = true;
+// delete student1.isFeePaid;
+// student1.specialQuota = true;
 // // console.log(student1, student2, student3);
 
 // console.log("specialQuota" in student1);
@@ -103,6 +103,6 @@ student1.specialQuota = true;
 // let currentURL = location;
 // console.log(currentURL.pathname);
 
-let newURL = prompt('enter a URL with protocol.');
-location = newURL;
-console.log(newURL);
+// let newURL = prompt('enter a URL with protocol.');
+// location = newURL;
+// console.log(newURL);
