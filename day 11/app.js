@@ -8,17 +8,31 @@
 
 
 
-
-// for string ..
-let str = "hello world";
-//str = str.split("").reverse().join("");
-
-
-str = str.split("");
-str = str.reduce((reversestr,  chr) =>{
-  // return chr + reversestr ;
-  return reversestr + chr ;
-}, "");
+// // for string ..
+// let str = "hello world";
+// //str = str.split("").reverse().join("");
 
 
-console.log(str);
+// str = str.split("");
+// str = str.reduce((reversestr,  chr) =>{
+//   // return chr + reversestr ;
+//   return reversestr + chr ;
+// }, "");
+// console.log(str);
+
+
+
+
+let str = "the quick brown fox jumps over the lazy dog";
+let vowels = ["a", "e", "i", "o", "u"];
+
+let vowelscount = str.split("").reduce((count,  chr) =>{
+  // return vowels.includes(chr) ? count + 1 : count;
+  if (vowels.includes(chr)) {
+      count + 1 
+  } else {
+   return count  
+  }
+}, 0);
+
+console.log(vowelscount);
