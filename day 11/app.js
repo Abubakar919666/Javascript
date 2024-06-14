@@ -41,14 +41,24 @@
 
 
 
-let str1 = "Saylani Mass Information Technology";
-let str2 = "Pakistan Telecommunication Company Limited";
+// let str1 = "Saylani Mass Information Technology";
+// let str2 = "Pakistan Telecommunication Company Limited";
 
-let str1Abbr = str1.split(" ").reduce(findAbbr, "");
-let str2Abbr = str2.split(" ").reduce(findAbbr, "");
+// let str1Abbr = str1.split(" ").reduce(findAbbr, "");
+// let str2Abbr = str2.split("  ").reduce(findAbbr, "");
 
-function findAbbr(abbr, words) {
-  return abbr + words[0];
-}
+// function findAbbr(abbr, words) {
+//   return abbr + words[0];
+// }
 
-console.log(str1Abbr, str2Abbr);
+// console.log(str1Abbr, str2Abbr);
+
+
+
+
+
+// .every method..
+let teamAges = [15, 16, 19, 22, 24];
+
+let eligible = teamAges.every((age) => age >= 15)
+console.log(eligible);
