@@ -58,7 +58,15 @@
 
 
 // .every method..
-let teamAges = [15, 16, 19, 22, 24];
+// let teamAges = [15, 16, 19, 22, 24];
 
-let eligible = teamAges.every((age) => age >= 15)
-console.log(eligible);
+// let eligible = teamAges.every((age) => age >= 15)
+// console.log(eligible);  
+
+
+
+// some method..
+let teamAges = [15, 16, 19, 22, 24, 40];
+
+let eligibleForGym = teamAges.some((age) => age >= 40)
+console.log(eligibleForGym);  
