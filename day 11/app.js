@@ -23,16 +23,32 @@
 
 
 
-let str = "the quick brown fox jumps over the lazy dog";
-let vowels = ["a", "e", "i", "o", "u"];
+// let str = "the quick brown fox jumps over the lazy dog";
+// let vowels = ["a", "e", "i", "o", "u"];
 
-let vowelscount = str.split("").reduce((count,  chr) =>{
-  // return vowels.includes(chr) ? count + 1 : count;
-  if (vowels.includes(chr)) {
-      count + 1 
-  } else {
-   return count  
-  }
-}, 0);
+// let vowelscount = str.split("").reduce((count,  chr) =>{
+//   // return vowels.includes(chr) ? count + 1 : count;
+//   if (vowels.includes(chr)) {
+//       count + 1 
+//   } else {
+//    return count  
+//   }
+// }, 0);
 
-console.log(vowelscount);
+// console.log(vowelscount);
+
+
+
+
+
+let str1 = "Saylani Mass Information Technology";
+let str2 = "Pakistan Telecommunication Company Limited";
+
+let str1Abbr = str1.split(" ").reduce(findAbbr, "");
+let str2Abbr = str2.split(" ").reduce(findAbbr, "");
+
+function findAbbr(abbr, words) {
+  return abbr + words[0];
+}
+
+console.log(str1Abbr, str2Abbr);
