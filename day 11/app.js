@@ -69,4 +69,4 @@
 let teamAges = [15, 16, 19, 22, 24, 40];
 
 let eligibleForGym = teamAges.some((age) => age >= 40)
-console.log(eligibleForGym);  
+console.log(eligibleForGym);                
