@@ -1,1 +1,1 @@
-// Arrays and Objects
+// Scope

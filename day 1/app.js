@@ -7,5 +7,4 @@ alert("welcome BK")
 
 
 
-// Some basic topic of javascript 
 
