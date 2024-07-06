@@ -43,3 +43,14 @@
 6. Null
 7. Symbol
 8. Object
+
+
+# Interview question :
+
+Q1. What the datatype of Undefined ?
+ 
+A. Undefined. 
+
+Q2. What the datatype of Null ?
+
+A. Object. 

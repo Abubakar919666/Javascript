@@ -67,10 +67,6 @@ let userIntro =
     let weight = 7.5;
 
 
-// Strings:
-    let color = "Yellow";
-    let Name = "Johnson";
-
 
 // Booleans
     let x = true;
