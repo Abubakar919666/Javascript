@@ -1,4 +1,4 @@
-//  Variables
+// ==========================================  Variables ========================================== \\
 
 
 // Automatically declared variables :
@@ -49,3 +49,41 @@ let userIntro =
 
     console.log(userIntro);
 
+
+
+
+
+
+// ========================================== Data types ========================================== \\
+
+
+//  String:
+    let carName1 = "Volvo XC60";  // Double quotes
+    let carName2 = 'Volvo XC60';  // Single quotes
+
+
+// Numbers:
+    let length = 16;
+    let weight = 7.5;
+
+
+// Strings:
+    let color = "Yellow";
+    let Name = "Johnson";
+
+
+// Booleans
+    let x = true;
+    let y = false;
+
+
+// Object:
+    const person = {firstName:"John", lastName:"Doe"};
+
+
+// Array object:
+    const cars = ["Saab", "Volvo", "BMW"];
+
+
+// Date object:
+    const date = new Date("2024-04-24");
