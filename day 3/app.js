@@ -28,7 +28,7 @@
 
 
     
-// Implicit scope
+// Implicit scope ::
     const balance1 = 1000
 
     // if (balance1 > 500) console.log("test")
@@ -36,7 +36,7 @@
 
 
 
-// Nested If-Else Statements
+// Nested If-Else Statements ::
     const balance = 1000
         if (balance < 500) {
             console.log("less than 500");
@@ -50,7 +50,7 @@
 
 
 
-// practical use case mentioned
+// practical use case mentioned ::
 const userLoggedIn = true
 const debitCard = true
 const loggedInFromGoogle = false
@@ -67,7 +67,7 @@ if (loggedInFromGoogle || loggedInFromEmail) {
 
 
 
-// switch case statement (useful in redux):
+// switch case statement (useful in redux) ::
 // Basic santax
     switch (key) {
         case value:
@@ -98,3 +98,68 @@ if (loggedInFromGoogle || loggedInFromEmail) {
             console.log("default case match");
             break;
     }
+
+
+
+
+
+// "truthy" & "falsy" values ::
+
+    const userEmail = []
+
+    if (userEmail) {
+        console.log("Got user email");
+    } else {
+        console.log("Don't have user email");
+    }
+
+
+
+// falsy values
+// false, 0, -0, BigInt 0n, "", null, undefined, NaN
+
+//truthy values
+// "0", 'false', " ", [], {}, function(){}
+
+
+
+// Empty array check
+    if (userEmail.length === 0) {
+        console.log("Array is empty");
+    }
+
+
+
+// Empty object check
+    const emptyObj = {}
+
+    if (Object.keys(emptyObj).length === 0) {
+        console.log("Object is empty");
+    }
+
+
+
+// nullish coalescing operator (??) ::
+
+    let val1;   
+//  val1 = 5 ?? 10
+
+
+
+// null undefined
+
+    val1 = null ?? 10
+    val2 = undefined ?? 15
+    val3 = null ?? 10 ?? 20
+    console.log(val3);
+
+
+
+
+
+// Terniary Operator ::
+
+    condition ? true : false
+
+    const iceTeaPrice = 100
+    iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
