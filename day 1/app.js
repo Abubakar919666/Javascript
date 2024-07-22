@@ -83,3 +83,8 @@ let userIntro =
 
 // Date object:
     const date = new Date("2024-04-24");
+
+
+let name1 = new String ("abubakar")
+
+console.log(name1);
