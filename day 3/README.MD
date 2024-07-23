@@ -17,4 +17,10 @@ why control Flow?
 - nullish coalescing operator 
 - significance of "??" operator
 - confusion warning!!
+- Terniary Operator
+- for loop
+- if condition inside for loop
+- for loop inside for loop
+- array inside for loop
+- keyword in loop (break and continue)  
 - summary

@@ -20,11 +20,11 @@
 // difference between "var" & {"let", "const"} regarding scope.
     const score = 200
 
-    if (score > 100) {
-        let power = "fly"
-        console.log(`User power: ${power}`);
-    }
-    console.log(`User power: ${power}`);
+        if (score > 100) {
+            let power = "fly"
+            console.log(`User power: ${power}`);
+        }
+    // console.log(`User power: ${power}`);
 
 
     
@@ -51,53 +51,52 @@
 
 
 // practical use case mentioned ::
-const userLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
+    const userLoggedIn = true
+    const debitCard = true
+    const loggedInFromGoogle = false
+    const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard && 2==3) {
-    console.log("Allow to buy course");
-}
+        if (userLoggedIn && debitCard && 2==3) {
+            console.log("Allow to buy course");
+        }
 
-if (loggedInFromGoogle || loggedInFromEmail) {
-    console.log("User logged in");
-}
+        if (loggedInFromGoogle || loggedInFromEmail) {
+            console.log("User logged in");
+        }
 
 
 
 
 // switch case statement (useful in redux) ::
 // Basic santax
-    switch (key) {
-        case value:
+    // switch (key) {
+    //     case value:
             
-            break;
+    //         break;
 
-        default:
-            break;
-    }
+    //     default:
+    //         break;
+    // }
 
     const month = "march"
+        switch (month) {
+            case "jan":
+                console.log("January");
+                break;
+            case "feb":
+                console.log("feb");
+                break;
+            case "march":
+                console.log("march");
+                break;
+            case "april":
+                console.log("april");
+                break;
 
-    switch (month) {
-        case "jan":
-            console.log("January");
-            break;
-        case "feb":
-            console.log("feb");
-            break;
-        case "march":
-            console.log("march");
-            break;
-        case "april":
-            console.log("april");
-            break;
-
-        default:
-            console.log("default case match");
-            break;
-    }
+            default:
+                console.log("default case match");
+                break;
+        }
 
 
 
@@ -159,7 +158,69 @@ if (loggedInFromGoogle || loggedInFromEmail) {
 
 // Terniary Operator ::
 
-    condition ? true : false
+    // condition ? true : false
 
     const iceTeaPrice = 100
     iceTeaPrice <= 80 ? console.log("less than 80") : console.log("more than 80")
+
+
+
+
+// Loop ::
+    
+// if condition inside for loop
+
+    for (let i = 0; i <= 10; i++) {
+        const element = i;
+            if (element == 5) {
+                console.log("5 is best number");
+            }
+        console.log(element);
+
+    }
+    console.log(element);
+
+
+
+// for loop inside for loop
+
+    for (let i = 1; i <= 10; i++) {
+        console.log(`Outer loop value: ${i}`);
+        for (let j = 1; j <= 10; j++) {
+            console.log(`Inner loop value ${j} and inner loop ${i}`);
+            console.log(i + '*' + j + ' = ' + i*j );
+        }
+        
+    }
+
+
+
+
+// array inside for loop
+
+    let myArray = ["flash", "batman", "superman"]
+    console.log(myArray.length);
+        for (let index = 0; index < myArray.length; index++) {
+            const element = myArray[index];
+            console.log(element);
+
+        }
+
+
+// keyword in loop (break and continue)
+
+    for (let index = 1; index <= 20; index++) {
+        if (index == 5) {
+            console.log(`Detected 5`);
+            break
+        }
+        console.log(`Value of i is ${index}`);
+    }
+
+    for (let index = 1; index <= 20; index++) {
+        if (index == 5) {
+            console.log(`Detected 5`);
+            continue
+        }
+        console.log(`Value of i is ${index}`);
+    }
