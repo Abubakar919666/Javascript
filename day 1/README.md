@@ -10,7 +10,6 @@
 
 # Note:
 
-
     The var keyword was used in all JavaScript code from 1995 to 2015.
 
     The let and const keywords were added to JavaScript in 2015.

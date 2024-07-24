@@ -41,7 +41,6 @@ console.log(myArray.length);
 
 
 
-
 // keyword in loop (break and continue)
 
 for (let index = 1; index <= 10; index++) {
