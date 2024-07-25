@@ -2,9 +2,9 @@
 
 //  Basic understanding of Array
     const myArr = [0, 1, 2, 3, 4, 5]
-    const myHeors = ["shaktiman", "naagraj"]
+    const myHeors = ["Umar farooq", "Imam hussain"]
 
-    
+
 
 
 // Access the first Value of array 
@@ -112,9 +112,9 @@
 
 
 // isArray method 
-    console.log(Array.isArray("Hitesh"))
-    console.log(Array.from("Hitesh"))
-    console.log(Array.from({name: "hitesh"})) // interesting
+    console.log(Array.isArray("Abubakar"))
+    console.log(Array.from("Abubakar"))
+    console.log(Array.from({name: "Abubakar"})) // interesting
 
 
 
