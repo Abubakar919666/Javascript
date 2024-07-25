@@ -63,18 +63,21 @@ let userIntro =
 
 
 // Numbers:
-    let length = 16;
+    let length = "16";
     let weight = 7.5;
 
 
 
 // Booleans
-    let x = true;
+    let isLogedIN = true;
     let y = false;
 
 
 // Object:
-    const person = {firstName:"John", lastName:"Doe"};
+    const person = {
+        firstName: "John",
+        lastName : "Doe"
+    };
 
 
 // Array object:
@@ -82,9 +85,8 @@ let userIntro =
 
 
 // Date object:
-    const date = new Date("2024-04-24");
+    // const date = new Date("2024-04-24");
+    // console.log(date);
 
-
-let name1 = new String ("abubakar")
-
-console.log(name1);
+    // let name1 = new String ("abubakar")
+    // console.log(name1);
