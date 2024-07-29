@@ -75,6 +75,8 @@ let index = 0;
 // Understanding while Loope through Arrays 
 
 let myArray1 = ["flash", "batman", "superman"];
+
+
 let arr = 0;
     while (arr < myArray1.length) {
         console.log(`Value is ${myArray1[arr]}`);
