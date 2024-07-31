@@ -1,6 +1,3 @@
-## Arrays
-<br/>
-
  # Learning Objectives
 - introduction to an array
 

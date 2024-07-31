@@ -1,79 +1,79 @@
-// Array
+// // Array
 
-//  Basic understanding of Array
-    const myArr = [0, 1, 2, 3, 4, 5]
-    const myHeors = ["Umar farooq", "Imam hussain"]
-
-
-
-
-// Access the first Value of array 
-    const myArr2 = new Array(1, 2, 3, 4)
-    console.log(myArr[1]);
+// //  Basic understanding of Array
+//     const myArr = [0, 1, 2, 3, 4, 5]
+//     const myHeors = ["Umar farooq", "Imam hussain"]
 
 
 
 
-// Array methods
-
-// Push method
-    myArr.push(6)
-    myArr.push(7)
+// // Access the first Value of array 
+//     const myArr2 = new Array(1, 2, 3, 4)
+//     console.log(myArr[1]);
 
 
 
 
-// pop method
-    myArr.pop()
+// // Array methods
+
+// // Push method
+//     myArr.push(6)
+//     myArr.push(7)
 
 
 
 
-// unshift method
-    myArr.unshift(9)
+// // pop method
+//     myArr.pop()
 
 
 
 
-// shift method
-    myArr.shift()
+// // unshift method
+//     myArr.unshift(9)
 
 
 
 
-// includes method 
-    console.log(myArr.includes(9));     
+// // shift method
+//     myArr.shift()
+
+
+
+
+// // includes method 
+//     console.log(myArr.includes(9));     
     
 
     
     
-// indexoff method
-    console.log(myArr.indexOf(3));
+// // indexoff method
+//     console.log(myArr.indexOf(3));
 
 
 
 
-// join method
-    const newArr = myArr.join()
-        console.log(myArr);
-        console.log( newArr);
+// // join method
+//     const newArr = myArr.join()
+//         console.log(myArr);
+//         console.log( newArr);
 
 
 
 
-// Slice vs splice
+// // Slice vs splice
 
-    console.log("A ", myArr);
+//     console.log("A ", myArr);
 
-    const myn1 = myArr.slice(1, 3)
+//     const myn1 = myArr.slice(1, 3)
 
-    console.log(myn1);
-    console.log("B ", myArr);
+//     console.log(myn1);
+//     console.log("B ", myArr);
 
 
-    const myn2 = myArr.splice(1, 3)
-    console.log("C ", myArr);
-    console.log(myn2);
+//     const myn2 = myArr.splice(1, 3)
+//     console.log("C ", myArr);
+//     console.log(myn2);
 
 
 
@@ -86,14 +86,14 @@
     marvel_heros.push(dc_heros)
     
     console.log(marvel_heros);
-    console.log(marvel_heros[3][1]);
+    console.log(marvel_heros[3][2]);
     
 
 
 
 // Concate method
-    const allHeros = marvel_heros.concat(dc_heros)
-    console.log(allHeros);
+    // const allHeros = marvel_heros.concat(dc_heros)
+    // console.log(allHeros);
     
     const all_new_heros = [...marvel_heros, ...dc_heros]
     
@@ -115,8 +115,6 @@
     console.log(Array.isArray("Abubakar"))
     console.log(Array.from("Abubakar"))
     console.log(Array.from({name: "Abubakar"})) // interesting
-
-
 
 
 //  of method
