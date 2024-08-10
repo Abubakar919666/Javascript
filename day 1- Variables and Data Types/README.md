@@ -37,6 +37,7 @@
 
 # Data Types
 
+
  -- JavaScript has 8 Datatypes
     
 1. String
